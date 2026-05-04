@@ -2828,14 +2828,17 @@ ATT.Category = {"bocw_aug_optic"}
 
 ATT.Sights = {
     {
-        Pos = Vector(0, 6.5, -1.103),
+        Pos = Vector(0, 8, -1.103),
         Ang = Angle(0, 0, 0),
         Magnification = 1.5,
+        ViewModelFOV = 45,
+        Blur = false
     },
     {
-        Pos = Vector(-0.1, 7, -1.85),
+        Pos = Vector(-0.1, 8, -1.85),
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
+        ViewModelFOV = 45,
         Disassociate = true
     }
 }
@@ -2844,13 +2847,13 @@ ATT.RTScopeAdjustable = false
 
 ATT.RTScope = true
 ATT.RTScopeSubmatIndex = 2
-ATT.RTScopeFOV = 8
+ATT.RTScopeMagnification = 1
 ATT.RTScopeReticle = Material("hud/arc9_bocw/scopes/reticle_aug.png", "mips smooth")
-ATT.RTScopeReticleScale = 1.5
-ATT.RTScopeColorable = true
-ATT.RTScopeShadowIntensity = 10
 
-ATT.ScopeScreenRatio = 0.5
+ATT.RTScopeReticleScale = 0.7
+ATT.RTScopeNew_ShadowScale = 0.75
+
+ATT.RTScopeColorable = true
 
 ATT.ModelOffset = Vector(0, 0, 0)
 
@@ -2888,7 +2891,8 @@ ATT.Sights = {
         Pos = Vector(0, 2.42, -6.15),
         Ang = Angle(0, 0, 0),
         Magnification = 1.4,
-        Disassociate = true
+        Disassociate = true,
+        DeferSights = false
     }
 }
 
