@@ -2950,13 +2950,13 @@ ATT.Free = true
 
 ATT.Category = {"bocw_dmr14_mount_light"}
 
-ATT.Model = "models/weapons/arc9/atts/bocw_mount_tacrifle_flashlight.mdl"
+ATT.Model = "models/weapons/arc9/atts/bocw_em2_mount_body.mdl"
 
 ATT.Attachments = {
     {
         PrintName = "BODY",
         Bone = "tag_weapon",
-        Pos = Vector(-1.45, -0.08, 0.55),
+        Pos = Vector(-1.45, -0.08, 0.58),
         Ang = Angle(0, 0, 0),
         Icon_Offset = Vector(0, 0.08, -0.5),
         Category = "bocw_body_flashlight_west"
@@ -2965,6 +2965,7 @@ ATT.Attachments = {
 
 ATT.ModelOffset = Vector(0.6, 0, 0)
 ATT.ModelAngleOffset = Angle(0, 0, 0)
+ATT.Scale = Vector(1.1,1.1,1.1)
 
 ATT.MenuCategory = "ARC9 - BOCW Attachments"
 
